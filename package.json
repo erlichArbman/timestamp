@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/erlichArbman/timestamp/issues"
   },
-  "homepage": "https://github.com/erlichArbman/timestamp#readme"
+  "homepage": "https://github.com/erlichArbman/timestamp#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
