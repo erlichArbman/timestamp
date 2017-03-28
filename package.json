@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "for the timestamp microservice API project for free code camp backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlichArbman/timestamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlichArbman/timestamp/issues"
+  },
+  "homepage": "https://github.com/erlichArbman/timestamp#readme"
+}
