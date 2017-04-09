@@ -5,7 +5,7 @@ var date;
 var natural;
 var unix;
 app.get('/', function(req, res) {
-	res.send('Hello Newman');
+	res.send('Pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016). If it does, it will return a unix timestamp and a natural language date, otherwise it will return null.');
 });
 app.get('/:dateParam', function(req, res) {
 	var dateInt = parseInt(req.params.dateParam);
