@@ -25,6 +25,6 @@ app.get('/:dateParam', function(req, res) {
 	res.send(dateObj);
 });
 
-app.listen(8080, function() {
+app.listen(process.env.PORT || 8080, function() {
 	console.log('Server listening on 8080');
 });
